@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cinema</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JVoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">MyCinema</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Showtimes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Deals</a>
+          </li>
+        </ul>
+      </div>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+      <h1 class="display-4">Welcome to MyCinema</h1>
+      <p class="lead">Experience movies like never before!</p>
+    </div>
+
+    <!-- Movie Section -->
+    <section id="movies">
+      <h2 class="text-center">Now Showing</h2>
+      <div class="row">
+        <!-- Movie 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://via.placeholder.com/150x200" alt="Movie Poster">
+            <div class="card-body">
+              <h5 class="card-title">Adventure in Space</h5>
+              <p class="card-text">Join a crew of explorers as they venture into the unknown.</p>
+              <span class="badge badge-info">7:00 PM</span>
+              <span class="badge badge-secondary">9:00 PM</span>
+            </div>
+          </div>
+        </div>
+        <!-- Movie 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://via.placeholder.com/150x200" alt="Movie Poster">
+            <div class="card-body">
+              <h5 class="card-title">Mystery of the Deep</h5>
+              <p class="card-text">A thrilling underwater adventure that keeps you on the edge of your seat.</p>
+              <span class="badge badge-info">6:30 PM</span>
+              <span class="badge badge-secondary">8:30 PM</span>
+            </div>
+          </div>
+        </div>
+        <!-- Movie 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://via.placeholder.com/150x200" alt="Movie Poster">
+            <div class="card-body">
+              <h5 class="card-title">The Last Hero</h5>
+              <p class="card-text">A lone warrior must defend his city from an ancient evil.</p>
+              <span class="badge badge-info">5:00 PM</span>
+              <span class="badge badge-secondary">7:30 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section id="deals" class="text-center">
+      <h2>Exclusive Deals</h2>
+      <p>Sign up for our newsletter and get exclusive offers!</p>
+      <form>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter your email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+      <p>&copy; 2024 MyCinema. All rights reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+        <li class="list-inline-item"><a href="#">Contact Us</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-skAcpIdQyBIY6xBzoWphmhLd8L8I4Ra2gFfF6Nvzzj68M/+ua0AjwjnfQ9aioamT" crossorigin="anonymous"></script>
+</body>
+</html>
